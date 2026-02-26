@@ -1,0 +1,22 @@
+EMMET
+
+. --> criar uma class 
+# --> criar u id 
+$ --> dados variaveis
+> --> criar um filho (elemento)
+{} --> escrever um texto no elemento
+[] --> incluir atributos no elemento
+> --> criar um elemento filho 
++ --> criar um outro elemento filho no mesmo nivel 
+* --> criar varios elementos 
+() --> envelopar os comandos do Emmet 
+Exemplo:
+<header>
+<h1></h1>
+</header>
+<section>
+<h2></h2>
+</section>
+
+(header>h1)+(section>h2)
+^ --> subir de nivel 
