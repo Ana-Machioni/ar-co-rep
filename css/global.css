@@ -1,3 +1,5 @@
+/* fznd ling formatacao */
+
 /* variaveis do design system */
 :root {
     --primary-color: aquamarine;
@@ -11,6 +13,53 @@
 }
 
 /* reset basico */
-* {
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+} */
+
+body{
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* header */
+.project__header h1 {
 
 }
+
+/* estilixacao bnts (input e btn dinamico) */
+.project__button-group input[type="button"],
+button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--radius);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+
+}
+
+.project__button-group input[type="button"]:hover,
+button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+}
+

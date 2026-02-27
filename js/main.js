@@ -19,12 +19,12 @@ btnP3.addEventListener('click', function (){
     window.location.href='./pages/projeto03.html'
 });
 
-function cacho(x, y){
-    return x + y
-};
+// function cacho(x, y){
+//     return x + y
+// };
 
-const banana = cacho
+// const banana = cacho
 
-const uva = () => 'Sou uma frutinha';
+// const uva = () => 'Sou uma frutinha';
 
 
