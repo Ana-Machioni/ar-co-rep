@@ -9,7 +9,7 @@
     --white: #fffff;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px;
     --radius: 8px;
-    --font-main
+    --font-main: "montserrat", sans-serif;
 }
 
 /* reset basico */
@@ -35,6 +35,9 @@ body{
 
 /* header */
 .project__header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
 
 }
 
