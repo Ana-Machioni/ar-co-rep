@@ -3,6 +3,7 @@
 const btnP1 = document.querySelector('#inputP1');
 const btnP2 = document.querySelector('#inputP2');
 const btnP3 = document.querySelector('#inputP3');
+const btnP4 = document.querySelector('#inputP4');
 
 // 2. metodo addEventListener com funçao anonima
 
@@ -18,6 +19,11 @@ btnP2.addEventListener('click', function(){
 btnP3.addEventListener('click', function (){
     window.location.href='./pages/projeto03.html'
 });
+
+btnP4.addEventListener('click', function (){
+    window.location.href='./pages/projeto04.html'
+});
+
 
 // function cacho(x, y){
 //     return x + y

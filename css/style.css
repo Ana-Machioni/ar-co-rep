@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Corpo da página */
+  body {
+    background: linear-gradient(135deg, #77b4c4, #619da1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Container principal */
+  .calculator {
+    background: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  
+  /* Header */
+  .calculator__header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .calculator__title {
+    font-size: 26px;
+    color: #333;
+  }
+  
+  /* Formulário */
+  .calculator__form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .calculator__label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .calculator__input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: 0.2s;
+  }
+  
+  .calculator__input:focus {
+    border-color: #79bfc4;
+    outline: none;
+    box-shadow: 0 0 5px rgba(105, 181, 184, 0.4);
+  }
+  
+  /* Botões */
+  .calculator__buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .calculator__button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  /* Botão calcular */
+  .calculator__button--calculate {
+    background: #3d7a77;
+    color: white;
+  }
+  
+  .calculator__button--calculate:hover {
+    background: #3d7a77;;
+  }
+  
+  /* Botão limpar */
+  .calculator__button--clear {
+    background: #3d7a77;;
+    color: white;
+  }
+  
+  .calculator__button--clear:hover {
+    background: #3d7a77;;
+  }
+  
+  /* Resultado */
+  .calculator__result-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f5f5f5;
+  }
+  
+  .calculator__result-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .calculator__result-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 480px) {
+    .calculator {
+      padding: 20px;
+    }
+  
+    .calculator__title {
+      font-size: 22px;
+    }
+  }
+
